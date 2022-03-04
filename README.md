@@ -12,7 +12,9 @@ If you want you can install the branches like in the code below. I probably will
 
 ```git clone -b react-day-2 https://github.com/luigiMinardi/reactStudies```
 
+## Template for new projects:
 
+```git clone -b base-branch https://github.com/luigiMinardi/reactStudies```
 
 # Getting Started with Create React App
 
