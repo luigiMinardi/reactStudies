@@ -7,7 +7,7 @@ import Header from "../../Components/Header/Header";
 const Home = (props) => {
     return (
         <div className="designHome">
-            <Header className="header" />
+            <Header className="header" selfReference='Home' />
             <section className="content">
                 <p className="text">I'm Home</p>
                 <Button description='Login' url='/login' />

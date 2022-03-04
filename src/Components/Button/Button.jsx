@@ -8,12 +8,12 @@ const Button = (props) => {
     const sendMe = () => {
         navigate(props.url);
     }
-
     return (
         <div className="designButton" onClick={() => sendMe()}
             style={{
                 backgroundColor: props.bgColor || '#8BE9FD',
-                color: props.color || '#282A36'
+                color: props.color || '#282A36',
+                filter: props.selfReference === props.description ? `brightness(.85)` : undefined
             }}
         >
             {props.description}

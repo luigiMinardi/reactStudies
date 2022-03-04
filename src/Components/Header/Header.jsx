@@ -3,7 +3,6 @@ import Button from "../Button/Button";
 import './Header.css';
 
 const Header = (props) => {
-
     return (
         <div className="designHeader">
             <Button description='Home' url='/' bgColor='#44475A' color='#F8F8F2' selfReference={props.selfReference} />
