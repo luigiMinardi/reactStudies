@@ -4,17 +4,25 @@ Each branch of this repo is a different code utilizing react for me to train a l
 
 If you want you can install the branches like in the code below. I probably will do a list of all the branches and the code to install each, but this may take a while since its not my objective with this repo.
 
-```git clone -b <branch_name> https://github.com/luigiMinardi/reactStudies```
+```bash
+git clone -b <branch_name> https://github.com/luigiMinardi/reactStudies
+```
 
 ## Project branches:
 
-```git clone -b react-day-1 https://github.com/luigiMinardi/reactStudies```
+```bash
+git clone -b react-day-1 https://github.com/luigiMinardi/reactStudies
+```
 
-```git clone -b react-day-2 https://github.com/luigiMinardi/reactStudies```
+```bash
+git clone -b react-day-2 https://github.com/luigiMinardi/reactStudies
+```
 
 ## Template for new projects:
 
-```git clone -b base-branch https://github.com/luigiMinardi/reactStudies```
+```bash
+git clone -b base-branch https://github.com/luigiMinardi/reactStudies
+```
 
 # Getting Started with Create React App
 
