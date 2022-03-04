@@ -1,0 +1,19 @@
+.designButton {
+    height: 4em;
+    width: 8em;
+
+    transition: .2s;
+    border-radius:1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.designButton:hover {
+    transition: .5s;
+    transform:scale(.95);
+    opacity: 70%;
+}

@@ -1,0 +1,25 @@
+
+.designLogin {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #282A36;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #F8F8F2;
+}
+
+.content {
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
