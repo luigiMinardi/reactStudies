@@ -4,13 +4,16 @@ import './Login.css';
 
 import Button from '../../Components/Button/Button';
 import Header from "../../Components/Header/Header";
+import { connect } from "react-redux";
+import { NOT_HOME } from "../../redux/actions";
 
-const Login = () => {
+const Login = (props) => {
 
     const [credentials, setCredentials] = useState("");
 
     useEffect(() => {
         console.log('Created')
+        props.dispatch({ type: NOT_HOME })
     }, [])
 
     useEffect(() => {
@@ -56,4 +59,4 @@ const Login = () => {
 
 }
 
-export default Login;
+export default connect()(Login);

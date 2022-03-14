@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Home.css';
 
 import Button from '../../Components/Button/Button';
 import Header from "../../Components/Header/Header";
+import { connect } from "react-redux";
+import { IS_HOME } from "../../redux/actions";
 
 const Home = (props) => {
+
+    useEffect(() =>{
+        props.dispatch({ type: IS_HOME })
+    },[])
+
     return (
         <div className="designHome">
             <Header className="header" selfReference='Home' />
@@ -16,4 +23,4 @@ const Home = (props) => {
     )
 }
 
-export default Home;
+export default connect()(Home);
